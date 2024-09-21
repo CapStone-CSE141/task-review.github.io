@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Review Table</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                padding:0;
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .header{
+                background-color: #0d2753;
+                height: 60px;
+                color:white;
+                margin:0;
+                padding:10px 0;
+                display: flex;
+                align-items: center;
+                justify-content:first baseline;
+            }
+            .table_container {
+                padding: 10px; 
+            }
+            table {
+                width: 80%; 
+                border-collapse: collapse;
+                margin: 40px auto;
+            }
+            th{
+                background:dodgerblue;
+                color:white;
+                text-align: center;
+            }
+            th, td {
+                border: 1px solid #ccc; 
+                padding: 8px; 
+                text-align: left; 
+            }
+            @media screen and (max-width: 480px) {
+                table{
+                    width:90%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2>CapStone Project Task Review</h2>
+            </div>
+            <div class="table_container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Level</th>
+                            <th>Points</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Suprith M</td>
+                            <td>Intermediate</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>Subbireddy K</td>
+                            <td>Basic</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>Rahul M</td>
+                            <td>Sratch</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>Kiran Kumar L N</td>
+                            <td>Basic</td>
+                            <td>0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
